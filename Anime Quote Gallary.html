@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+    background: linear-gradient(to right, rgb(152, 39, 156), #e26821);
+  }
+  
+  h1 {
+    margin: 2rem 0;
+    color: #9e2828;
+    font-weight: bold;
+  }
+  
+  .grid-container {
+    columns: 5 100px;
+    column-gap: 1rem;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .grid-container div {
+    width: 150px;
+    margin: 0 1.5rem 1.5rem 0;
+    display: inline-block;
+    width: 100%;
+    border: solid 2px black;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    padding: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    transition: all 0.25s ease-in-out;
+  }
+
+  .grid-container div:hover img {
+    filter: grayscale(0);
+  }
+
+  .grid-container div:hover {
+    border-color: coral;
+  }
+
+  .grid-container div img {
+    width: 100%;
+    filter: grayscale(100%);
+    border-radius: 5px;
+    transition: all 0.25s ease-in-out;
+  }
+
+  .grid-container div p {
+    margin: 5px 0;
+    padding: 0;
+    text-align: center;
+    font-style: italic;
+  }
+  
+  header {
+            background-color: #353131;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        
+    h6{
+    margin: 0%;
+    padding: 0%;
+    color: #111;
+    font-size: 2em;
+}
+
+h6 span{
+    display: table-cell;
+    margin: 10px;
+    padding: 1.5rem;
+    animation: animate 4s ease infinite;
+}
+
+h6 span:nth-child(6)
+{
+    animation-delay: 0.1s;
+}
+h6 span:nth-child(7)
+{
+    animation-delay: 0.1s;
+}
+h6 span:nth-child(8)
+{
+    animation-delay: 0.1s;
+}
+h6 span:nth-child(9)
+{
+    animation-delay: 0.1s;
+}
+h6 span:nth-child(10)
+{
+    animation-delay: 0.1s;
+}
+@keyframes animate{
+
+0%,100%{
+    color: #fff;
+    filter: blur(1px);
+    text-shadow: 0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #fff;
+}
+
+5%,95%{
+    color: #111;
+    filter: blur(0px);
+    text-shadow: none;
+}
+}
+  </style>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>My Anime</title>
+</head>
+<body>
+  <header>
+    <center><p><h6>
+        <span>A</span>
+        <span>N</span>
+        <span>I</span>
+        <span>M</span>
+        <span>E</span>
+        <span> </span>
+        <span>Q </span>
+        <span>U</span>
+        <span>O</span>
+        <span>T</span>
+        <span>E</span>
+        <span>S</span>
+        <span> </span>
+        <span>G</span>
+        <span>A</span>
+        <span>L</span>
+        <span>L</span>
+        <span>A</span>
+        <span>R</span>
+        <span>Y</span>
+        <span></span>
+    </h6></p></center>
+</header>
+    
+<div class="grid-container">
+  <div>
+    <img class='grid-item' src='Jujutsu_Kaisen-cover.jpg' alt=''>
+    <p style="font-size: 30px;">"But no matter how many allies you have around you, when you die, you'll be alone. Satoru acknowledges Megumi's willingness to cooperate with his teammates"</p>
+  </div>
+  <div>
+    <img class='grid-item' src='demonslayer-art-1634244394273.png' alt=''>
+    <p style="font-size: 30px;">"No matter how many people you may lose, you have no choice but to go on living -- no matter how devastating the blows, maybe."</p>
+  </div>
+  <div>
+    <img class='grid-item' src='NarutoCoverTankobon1.jpg' alt=''>
+    <p style="font-size: 30px;">"Wake up to reality. Nothing ever goes as planned in this world. The longer you live, the more you realize that only pain, suffering, and futility exist in this reality"</p>
+  </div>
+  <div>
+    <img class='grid-item' src='Daily.jpg' alt=''>
+    <p style="font-size: 30px;">"Memories are like water in your palm; it doesn’t matter whether you have your hand open or if it’s holding it tightly, it will still leak drop by drop until it’s all gone. However, the coolness of the water is unforgettable."</p>
+  </div>
+  <div>
+    <img class='grid-item' src='OnePunchMan_manga_cover.png' alt=''>
+    <p style="font-size: 30px;">"I’m not a hero because I want your approval. I do it because I want to!"</p>
+  </div>
+  <div>
+    <img class='grid-item' src='Tokyoghoul.jpg' alt=''>
+    <p style="font-size: 30px;"> "It's better to be hurt than to hurt others. Nice people can be happy with just that. Be somebody who knows pain instead of somebody who hurts."</p>
+  </div>
+  <div>
+    <img class='grid-item' src='Naruto1.jpeg' alt=''>
+    <p style="font-size: 30px;">"HARD WORK IS WORTHLESS FOR THOSE THAT DON’T BELIEVE IN THEMSELVES."</p>
+  </div>
+  <div>
+    <img class='grid-item' src='obito1.jpeg' alt=''>
+    <p style="font-size: 30px;">"THE MOMENT PEOPLE COME TO KNOW LOVE, THEY RUN THE RISK OF CARRYING HATE."</p>
+  </div>
+  <div>
+    <img class='grid-item' src='JIRAIYA1.jpeg' alt=''>
+    <p style="font-size: 30px;">"WHEN PEOPLE GET HURT, THEY LEARN TO HATE… WHEN PEOPLE HURT OTHERS, THEY BECOME HATED AND RACKED WITH GUILT. 
+      BUT KNOWING THAT PAIN ALLOWS PEOPLE TO BE KIND. PAIN ALLOWS PEOPLE TO GROW… AND HOW YOU GROW IS UP TO YOU."</p>
+  </div>
+  <div>
+    <img class='grid-item' src='itachi1.webp' alt=''>
+    <p style="font-size: 30px;">"GROWTH OCCURS WHEN ONE GOES BEYOND ONE’S LIMITS. REALIZING THAT IS ALSO PART OF TRAINING."</p>
+  </div>
+  <div>
+    <img class='grid-item' src='itachi2.jpeg' alt=''>
+    <p style="font-size: 30px;">"THOSE WHO FORGIVE THEMSELVES, AND ARE ABLE TO ACCEPT THEIR TRUE NATURE… THEY ARE THE STRONG ONES!"</p>
+  </div>
+  <div>
+    <img class='grid-item' src='orichimaru1.jpeg' alt=''>
+    <p style="font-size: 30px;">"IT’S HUMAN NATURE NOT TO REALIZE THE TRUE VALUE OF SOMETHING, UNLESS THEY LOSE IT."</p>
+  </div>
+  <div>
+    <img class='grid-item' src='obito2.jpeg' alt=''>
+    <p style="font-size: 30px;">"IN THE NINJA WORLD, THOSE WHO DON’T FOLLOW THE RULES ARE TRASH. BUT, THOSE WHO ABANDON THEIR FRIENDS ARE EVEN WORSE THAN TRASH."</p>
+  </div>
+  <div>
+    <img class='grid-item' src='pain1.png' alt=''>
+    <p style="font-size: 30px;">"Even the most ignorant, innocent child will eventually grow up as they learn what true pain is. It affects what they say,
+       what they think…and they become real people,"</p>
+  </div>
+  <div>
+    <img class='grid-item' src='gojo1.avif' alt=''>
+    <p style="font-size: 30px;">"Love Is The Most Twisted Curse Of All."</p>
+  </div>
+
+  <div>
+    <img class='grid-item' src='gojo2.avif' alt=''>
+    <p style="font-size: 30px;">"I Want To Have A Connection With Someone. I Want To Be Needed By Someone.
+       I Want The Confidence To Feel Like It’s Okay To Live."</p>
+  </div>
+
+  <div>
+    <img class='grid-item' src='gojo3.avif' alt=''>
+    <p style="font-size: 30px;">"I Don't Know How I'll Feel When I'm Dead, But I Don't Want To Regret The Way I Lived."</p>
+  </div>
+
+  <div>
+    <img class='grid-item' src='madara1.jpeg' alt=''>
+    <p style="font-size: 30px;">"Wake up to reality! Nothing ever goes as planned in this accursed world. The longer you live, the more you will realize that the only things that truly exist in this reality are merely pain, suffering, and futility.
+       Listen… everywhere you look in this world, wherever there is light, there will always be shadows to be found as well. As long as there is a concept of victors, the vanquished will also exist. The selfish intent of wanting to preserve peace, initiates wars. 
+      And hatred is born in order to protect love. There are nexuses, causal relationships that cannot be separated."</p>
+  </div>
+
+  <div>
+    <img class='grid-item' src='aot1.avif' alt=''>
+    <p style="font-size: 30px;">"It Doesn't Matter How Strong The Opposition Is. 
+      It Doesn't Matter How Fearsome The World Is, It Doesn't Matter How Cruel The World Is. Fight!"</p>
+  </div>
+
+  <div>
+    <img class='grid-item' src='aot2.avif' alt=''>
+    <p style="font-size: 30px;">"If There Are Humans Who Can Bring About Change, They're Those Who Are Capable Of Abandoning Everything. 
+      People Who, When Required To Surpass Even Monsters, Are Capable Of Tossing Aside Their Very Humanity."</p>
+  </div>
+
+  <div>
+    <img class='grid-item' src='aot3.avif' alt=''>
+    <p style="font-size: 30px;">"If You Win, You Live. If You Lose, You Die. If You Don't Fight, You Can't Win!"</p>
+  </div>
+
+  <div>
+    <img class='grid-item' src='aot4.avif' alt=''>
+    <p style="font-size: 30px;">"Hange Zoë: "You Understand, Don’t You? One Day Or Another, Everyone You Care About Eventually Dies. 
+      It’s Something We Simply Can’t Accept. It’s A Realization That Could Drive You Insane.""</p>
+  </div>
+
+  <div>
+    <img class='grid-item' src='aot5.avif' alt=''>
+    <p style="font-size: 30px;">"Kenny Ackerman: "Everyone Had To Be Drunk On Somethin’ 
+      To Keep Pushing On … Everyone Was A Slave To Somethin’.""</p>
+  </div>
+
+  <div>
+    <img class='grid-item' src='aot6.avif' alt=''>
+    <p style="font-size: 30px;">"Levi Ackerman: "No One Knows What The Outcome Will Be. So, Choose Whatever You'll Regret The Least.""</p>
+  </div>
+
+  <div>
+    <img class='grid-item' src='Myhero1.avif' alt=''>
+    <p style="font-size: 30px;">""Remember Why You Started Down This Path, And Let That Memory Carry You Beyond Your Limit.” – All Might"</p>
+  </div>
+
+  <div>
+    <img class='grid-item' src='Myhero2.avif' alt=''>
+    <p style="font-size: 30px;">""Symbol Of Peace? Hah! In The End, You’re Just A Tool For Violence, Made To Keep Us Down. And Violence Only Breeds More Violence.” – Tomura Shigaraki"</p>
+  </div>
+
+  <div>
+    <img class='grid-item' src='Myhero3.avif' alt=''>
+    <p style="font-size: 30px;">""I Have To Work Harder Than Anyone Else To Make It! I’ll Never Catch Up Otherwise… I Want To Be Like You… Like You! The Strongest Hero.” – Izuku Midoriya"</p>
+  </div>
+
+  <div>
+    <img class='grid-item' src='black1.jpg' alt=''>
+    <p style="font-size: 30px;">"“Quit giving up! What you’re doing right now is running away! You just stopped thinking and locked yourself up in darkness because it’s easier that way!” – Asta
+
+      "</p>
+  </div>
+
+  <div>
+    <img class='grid-item' src='black2.jpg' alt=''>
+    <p style="font-size: 30px;">"“I am going to… beat him on my own.” – Luck"</p>
+  </div>
+
+  <div>
+    <img class='grid-item' src='black3.jpg' alt=''>
+    <p style="font-size: 30px;">"“I’ve been facing adversity from the day I was born! No matter how many of you there are, or what happens, I’ll overcome it all.” – Asta"</p>
+  </div>
+
+  <div>
+    <img class='grid-item' src='black4.avif' alt=''>
+    <p style="font-size: 30px;">""Even If You Think You Might Lose, You'll Be Fine As Long As You Don't Give Up. Surpass Your Limits. The A Path Will Open Up For You."</p>
+  </div>
+
+  <div>
+    <img class='grid-item' src='demon1.avif' alt=''>
+    <p style="font-size: 30px;">"Those who regretted their own actions, I would never trample over them. Because demons were once human too. Just like me, they were human too."</p>
+  </div>
+
+  <div>
+    <img class='grid-item' src='demon2.avif' alt=''>
+    <p style="font-size: 30px;">"Don't cry even if you have regrets! No matter how pathetic or humiliated you feel, you still have to go on living!"</p>
+  </div>
+
+  <div>
+    <img class='grid-item' src='demon3.avif' alt=''>
+    <p style="font-size: 30px;">"I can do it. I know I can do it. I'm the guy who gets it done, broken bones or not. No matter what, I can do it! I can fight!"</p>
+  </div>
+
+  <div>
+    <img class='grid-item' src='demon4.avif' alt=''>
+    <p style="font-size: 30px;">"Don’t ever give up. Even if it’s painful, even if it’s agonizing, don’t try to take the easy way out."</p>
+  </div>
+
+
+  </div>
+</div>
+</body>
+</html>
+</body>
+</html>
